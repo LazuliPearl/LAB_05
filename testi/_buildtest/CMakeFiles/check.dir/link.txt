@@ -1,0 +1,1 @@
+/usr/bin/c++  --coverage CMakeFiles/check.dir/test1.cpp.o CMakeFiles/check.dir/test2.cpp.o -o check  libbanking.a lib/libgtest_main.a lib/libgtest.a -lpthread 
