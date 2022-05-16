@@ -28,7 +28,7 @@ jobs:
         run: testi/_build/check
           
       - name: creating_lcov_file
-        run: lcov -o ./coverage/lcov.info -c -d ./tests/_build/CMakeFiles/check.dir/ --include *.cpp
+        run: lcov -o ./coverage/lcov.info -c -d ./testi/_build/CMakeFiles/check.dir/ --include *.cpp
 
       - name: coveralls
         uses: coverallsapp/github-action@master
